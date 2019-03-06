@@ -1,0 +1,98 @@
+
+.list-item .coupon-amount-icon {
+    position: relative;
+    border: 1px solid #ff5000;
+    height: .5rem;
+    color: #ff5000;
+    overflow: hidden;
+    padding: 0 .1rem 0 .6rem;
+    font-size: .48rem;
+    line-height: .48rem;
+    border-radius: .05rem;
+}
+.coupon-con{
+}
+.list-item{
+    background: #fff;
+}
+
+.list-item dl{
+    margin-bottom: 30px;
+
+}
+.list-item .hr {
+    height: 1px;
+    width: 100%;
+    background: url(//gw.alicdn.com/tfs/TB1.lDiQFXXXXXOXFXXXXXXXXXX-327-1.png) no-repeat;
+    background-size: cover;
+    margin: .2rem 0 0;
+}
+.list-item .line2 {
+    display: -webkit-box;
+    overflow: hidden;
+}
+.item-content .title span, .list-item .line2 {
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.list-item .coupon-con .coupon-amount-price {
+    float: right;
+    color: #9b9b9b;
+    font-size: .42rem;
+}
+
+.list-item .p-top {
+    position: relative;
+    top: .1rem;
+}
+
+.list-item, .list-item .coupon-amount-icon {
+    box-sizing: border-box;
+    display: inline-block;
+}
+.list-item .coupon-amount-icon .icon-left {
+    position: absolute;
+    width: .5rem;
+    height: .5rem;
+    font-size: .48rem;
+    line-height: .5rem;
+    text-align: center;
+    background: #ff5000;
+    color: #fff;
+    left: 0;
+    top: -1px;
+}
+
+.list-item .info-con .price_sell {
+    font-size: .32rem;
+    color: #9b9b9b;
+    position: relative;
+    margin-top: .2rem;
+}
+.list-item .info-con .price_sell .sell-num {
+    position: absolute;
+    right: 0;
+}
+
+.list-item .big-price {
+    font-size: .5rem;
+    font-weight: 600;
+}
+.list-item .c-red {
+    color: #ff5000;
+}
+.list-item .info-con {
+    padding: 0 .2rem;
+}
+div {
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
